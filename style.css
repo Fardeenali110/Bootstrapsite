@@ -1,0 +1,124 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+    margin-left: 20px;
+    transition: color 0.3s;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffc107;
+  }
+  
+  .carousel-item img {
+    height: 90vh;
+    object-fit: cover;
+  }
+  
+  
+  .product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .product-card .btn {
+    transition: all 0.3s ease;
+  }
+  
+  .product-card .btn:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  
+  .offer-banner {
+    background: linear-gradient(to right, #111, #333);
+    padding: 4rem 1rem;
+  }
+  
+  .offer-banner h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .offer-banner p {
+    font-size: 1.1rem;
+  }
+  
+  
+  .blog-card {
+    transition: transform 0.3s ease;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .blog-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .blog-card img {
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  
+  form .form-control {
+    border-radius: 8px;
+    transition: border-color 0.3s;
+  }
+  
+  form .form-control:focus {
+    border-color: #000;
+    box-shadow: none;
+  }
+  
+  form button {
+    transition: background-color 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #ffc107;
+    color: #000;
+  }
+  
+  
+  footer {
+    background-color: #111;
+    font-size: 0.95rem;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .carousel-item img {
+      height: 60vh;
+    }
+  
+    .offer-banner h2 {
+      font-size: 1.5rem;
+    }
+  
+    .navbar-nav .nav-link {
+      margin-left: 10px;
+    }
+  }
+  

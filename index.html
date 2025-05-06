@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Fashion Store</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Our Fashion Store</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-end" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Carousel -->
+  <div id="home" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://img.freepik.com/free-photo/young-beautiful-couple-holding-wash-clothes-grey-wall_176420-3354.jpg?t=st=1746527359~exp=1746530959~hmac=9cef9af3d63015edbbcc68a7a4f10e0ff18b1e08c821f9b377195f32507eb84a&w=1380" class="d-block w-100" alt="New Collection">
+      </div>
+      <div class="carousel-item">
+        <img src="https://img.freepik.com/free-photo/beautiful-women-with-natural-surroundings_23-2148261279.jpg?t=st=1746527465~exp=1746531065~hmac=12f423bdc896f22ccfaef196d1d50e015dd1e0c78662c1bffb6de7824199276d&w=740" class="d-block w-100" alt="Stylish Wear">
+      </div>
+      <div class="carousel-item">
+        <img src="https://img.freepik.com/premium-photo/two-indian-men-wears-ethnic-traditional-cloths-male-fashion-models-with-sherwani-kurta-pyjama-sitting-posing-wing-chair-sofa-against-brown-grunge-background-selective-focus_466689-45369.jpg?w=740" class="d-block w-100" alt="Trendy Fashion">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#home" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#home" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- About Section -->
+  <section id="about" class="py-5 bg-light text-center">
+    <div class="container">
+      <h2>Who We Are</h2>
+      <p class="lead">Our Fashion is your go-to store for modern, trendy clothing crafted with love and style. From casual streetwear to premium collections—we cover it all.</p>
+    </div>
+  </section>
+
+  <!-- Featured Products -->
+  <section id="products" class="py-5">
+    <div class="container text-center">
+      <h2 class="mb-5">Featured Products</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card product-card">
+            <img src="https://charcoal.com.pk/cdn/shop/files/DSC00690_71485a36-9f75-4fc0-b846-9de274d573b3.jpg?v=1711610221&width=800">
+            <div class="card-body">
+              <h5 class="card-title">Polo T-Shirt</h5>
+              <p class="card-text">$19.99</p>
+              <button class="btn btn-outline-dark btn-sm">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card product-card">
+            <img src="https://charcoal.com.pk/cdn/shop/files/DSC05477_b930071f-53ed-40a9-9e53-d395d4c428cb.jpg?v=1741775113&width=800" class="card-img-top" alt="Jacket">
+            <div class="card-body">
+              <h5 class="card-title">Winter Jacket</h5>
+              <p class="card-text">$59.99</p>
+              <button class="btn btn-outline-dark btn-sm">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card product-card">
+            <img src="https://charcoal.com.pk/cdn/shop/products/JEAN-SLIM-LEG-LIGHT-BLUE-TINTED-at-Charcoal-Clothing-306.jpg?v=1680063149&width=800" class="card-img-top" alt="Denim Jeans">
+            <div class="card-body">
+              <h5 class="card-title">Denim Jeans</h5>
+              <p class="card-text">$34.99</p>
+              <button class="btn btn-outline-dark btn-sm">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Special Offer Banner -->
+  <section class="py-5 offer-banner text-white text-center ">
+    <div class="container">
+      <h2> Summer Sale! Get 30% Off All Items</h2>
+      <p>Use code <strong>SUMMER 30%</strong> at checkout</p>
+  
+  </section>
+
+  <!-- Blog Preview -->
+  <section id="blog" class="py-5 bg-info">
+    <div class="container text-center">
+      <h2 class="mb-5">Latest Blog Posts</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card blog-card">
+            <img src="https://img.freepik.com/premium-photo/young-friends-having-fun-outdoors-winter-time-concept-friendship-fun-with-new-trends-w_3579-4805.jpg?w=1380" class="card-img-top" alt="Fashion Tips">
+            <div class="card-body">
+              <h5 class="card-title">Top 5 Summer Fashion Tips</h5>
+              <p class="card-text">Stay stylish and comfy in this heat with these amazing tips.</p>
+              <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card blog-card">
+            <img src="https://i.pinimg.com/736x/d4/32/ff/d432ffe40c19d0b26b6109716fe788d5.jpg" class="card-img-top" alt="Trends">
+            <div class="card-body">
+              <h5 class="card-title">Upcoming Fall Trends</h5>
+              <p class="card-text">Here’s what’s expected to dominate the fashion scene this fall.</p>
+              <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-5">
+    <div class="container text-center">
+      <h2>Contact Us</h2>
+      <form class="mt-4">
+        <div class="row g-3">
+          <div class="col-md-6">
+            <input type="text" class="form-control" placeholder="Your Name" required />
+          </div>
+          <div class="col-md-6">
+            <input type="email" class="form-control" placeholder="Your Email" required />
+          </div>
+          <div class="col-12">
+            <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-dark px-5 mt-2" type="submit">Send</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <p class="mb-0">&copy; 2025 Our Fashion Brands. Designed with  in Bootstrap.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
